@@ -1,0 +1,10 @@
+fonts=Verdana
+Show file extensions
+yyyy-MMM-dd
+decimal="."
+associate
+  pdf => pdfxcview
+  mp3 => foobar
+  txt => npp
+  7z,zip,rar => 7zfm
+  djvu = windjview
