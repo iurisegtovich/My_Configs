@@ -1,0 +1,126 @@
+laptop specific
+	power > when the lid is closed > do nothing
+
+grub
+	edit
+		???
+	update
+		sudo update-grub
+
+kill process
+	ctrl+alt+F1
+	pidof gedit
+	top
+	k
+	3055
+	enter
+
+shutdown
+	sudo shutdown -h +30
+"The system is going down for halt in 30 minutes!"
+
+global menu
+	system settings > appearance > behavior > Show the menus for a window (o) In the window's title bar
+
+show scroll bar
+	@unity-tweak-tool
+	
+change system fonts
+	@unity-tweak-tool
+
+device name
+	***
+
+hide amazon results
+	system settings > security and privacy > search > include online search results [ ]
+	
+gedit
+	preferences
+		tab size 8
+		display line numbers
+		highlight matching brackets
+		right margin at 200
+		
+	plugins
+		sudo apt-get install gedit-plugins
+	tabs
+		gsettings set org.gnome.gedit.preferences.ui notebook-show-tabs-mode never
+	
+*-tweak-tools
+	sudo apt-get install gnome-tweak-tool
+	sudo apt-get install unity-tweak-tool
+	
+sudo apt-get install *
+	virtualbox //para rodar windows virtual
+	gfortran // compialdor de fortran
+	gnuplot gnuplot-x11// criação de gráficos para publicação e gráficos instantaneos na tela
+	rar // compactar e descompactar formato rar
+	p7zip-full // compactar e descompactar formato 7z com botao direito
+	p7zip-rar // compactar e descompactar formato rar com botao direito
+	gimp // editor de imagens vetorial e bitmap
+	nautilus-open-terminal // abrir o terminal em qualquer pasta com o botão direito
+	git // usar pasta de desenvolvimento colaborativo de programas
+	graphviz // requerimento do doxygen
+	flex // requerimento do doxygen
+	bison // requerimento do doxygen
+	g++ // requerimento do doxygen
+	openjdk-7-jdk // java para várias coisas
+	gparted // gerenciar partições de disco
+	texlive texlive-latex-extra texlive-lang-portuguese // básicos do latex para edição de texto profissional
+	vlc // player de vídeos multiformato
+	meld // visualizador de texto para comparação de 2 ou 3 versões simultaneamente
+	dconf-editor // pra editar configurações avançadas
+	ttf-mscorefonts-installer //para exibir fontes como Verdana, inclusive no navegador
+	trash-cli // apresenta o comando trash para enviar arquivos para a lixeira pelo terminal
+	kile // IDE para desenvolvimento de texto LaTex
+	
+sudo apt-get remove rhythmbox
+	
+nautilus
+	edit > preferences > views > View new folder using: [List view]
+	edit > preferences > display > list view (v) Navigate folders in a tree
+
+directory launcher
+	***
+custom software launchers files
+	***
+
+download
+	skype
+	deadbeef
+	dropbox
+	gsl: http://gnu.c3sl.ufpr.br/ftp/gsl/
+	[NO WORK] foobnix: http://www.foobnix.com/en/index.html
+	doxygen: http://www.stack.nl/~dimitri/doxygen/download.html
+	mendeley: https://www.mendeley.com/download-mendeley-desktop/
+	
+added repository:
+	adding
+		sudo add-apt-repository ppa:foobnix-team/foobnix-player
+	removing
+		sudo add-apt-repository --remove ppa:foobnix-team/foobnix-player
+		or
+		sudo rm /etc/apt/sources.list.d/foobnix-team-foobnix-player-trusty.list
+
+additional gedit plugins
+	https://help.gnome.org/users/gedit/stable/gedit-plugins-install.html.en
+	
+disable ALT L function
+	system settings > keyboard > shortcuts > key to show HUD > 'dclick' ALT L > backspace: "disabled"
+	
+"commom lisp"
+  sudo apt-get install emacs
+  sudo apt-get install sbcl
+  sudo apt-get install slime
+  emacs
+  
+gtk+ (dev)
+  sudo apt-get install libgtk2.0-dev
+  
+
+maxima
+
+wmaxima
+
+wxwidgets
+

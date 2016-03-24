@@ -1,0 +1,12 @@
+gedit ~/.bashrc
+
+source ~/.bashrc
+
+############################################################################################################################
+
+# alias for grep by iuri 2016.02.01 #e.g.: kd print*, .f90
+kd() { grep -ri --include "*$2" -F "$1" .; }
+
+
+#alias for quick 7z backup #e.g. bk projeto #don't: bk projeto/
+bk() { 7z a "$1"_.$(date +%Y.%m.%d.%Hh.%Mm)_.7z "$1";}
