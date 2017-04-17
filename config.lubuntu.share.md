@@ -14,10 +14,10 @@ sudo apt install samba cifs-utils smbclient
 sudo gedit /etc/samba/smb.conf
 
 ### edit
-  [custom]
-     path = /home/segtovichisv/storage/ 
-     valid users = segtovichisv
-     read only = no
+    [custom]
+       path = /home/segtovichisv/storage/ 
+       valid users = segtovichisv
+       read only = no
 
 #>With this configuration, you will get a share named
 #>   public
@@ -53,10 +53,10 @@ sudo mount -t cifs -o username=segtovichisv //10.0.2.2/public ~/shared_folder_mo
 sudo mount -t cifs -o username=segtovichisv,uid=1001,gid=1001 //10.15.56.8/public ~/shared_folder_mount_point
 #> ~/shared_folder_mount_point may be a symbolic link to /media/actual_shared_folder_mount_point or /mnt/actual_shared_folder_mount_point
 
-  share
-  share "/etc/fstab" "mount.cifs"
-  sudo gedit /etc/fstab //.../share-tag /home/user1/Desktop/mount-point cifs username=user2,domain=lab,noauto,rw,users 0 0
-  mount.cifs //.../share-tag ~/Desktop/mount-point
+    share
+    share "/etc/fstab" "mount.cifs"
+    sudo gedit /etc/fstab //.../share-tag /home/user1/Desktop/mount-point cifs username=user2,domain=lab,noauto,rw,users 0 0
+    mount.cifs //.../share-tag ~/Desktop/mount-point
 
 #TROUBLESHOOTING
 
