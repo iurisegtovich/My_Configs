@@ -11,6 +11,30 @@
     [ ] netbeans (sh) > chmod +x ***; ./***
     [x] gedit gedit-plugins
 
+
+        apt install:
+
+        build-essential
+        gedit gedit-plugins
+        libreoffice
+        samba cifs-utils
+        p7zip
+
+        #try them on new users
+
+        ---
+
+        web download:
+
+        dropbox
+        zotero
+
+        chrome
+
+        anaconda (sh)
+
+
+
 # share 
 ## share "/etc/fstab" "mount.cifs"
 
