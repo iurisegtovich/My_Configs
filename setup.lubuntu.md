@@ -3,6 +3,14 @@
 
 # setup
 
+    install:
+    [x] build essentials
+    [x] virtualbox (deb) > sudo dpkg -i ***; sudo apt -f install; sudo dpkg -i ***
+    [x] samba cifs-utils 
+    [x] openjdk-8-jdk
+    [ ] netbeans (sh) > chmod +x ***; ./***
+    [x] gedit gedit-plugins
+
 # share 
 ## share "/etc/fstab" "mount.cifs"
 
