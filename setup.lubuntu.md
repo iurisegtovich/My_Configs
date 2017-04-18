@@ -4,33 +4,19 @@
 # setup
 
     install:
-    [x] build essentials
-    [x] virtualbox (deb) > sudo dpkg -i ***; sudo apt -f install; sudo dpkg -i ***
-    [x] samba cifs-utils 
-    [x] openjdk-8-jdk
+    [ ] build essentials
+    [ ] virtualbox (deb) > sudo dpkg -i ***; sudo apt -f install; sudo dpkg -i ***
+    [ ] samba cifs-utils smbclient
+    [ ] openjdk-8-jdk
     [ ] netbeans (sh) > chmod +x ***; ./***
-    [x] gedit gedit-plugins
-
-
-        apt install:
-
-        build-essential
-        gedit gedit-plugins
-        libreoffice
-        samba cifs-utils
-        p7zip
-
-        #try them on new users
-
-        ---
-
-        web download:
+    [ ] gedit gedit-plugins
+    [ ] gfortran gdb valgrind
+    [ ] libreoffice
+    [ ] p7zip
 
         dropbox
         zotero
-
         chrome
-
         anaconda (sh)
 
 
