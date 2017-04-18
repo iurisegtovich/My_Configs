@@ -18,4 +18,5 @@ https://github.com/loopbio/pycuda-feedstock
 #2
 ? anaconda3/bin/conda install -c mutirri pycuda
 
+classes
 https://www.tutorialspoint.com/python/python_classes_objects.htm
