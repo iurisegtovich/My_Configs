@@ -13,11 +13,11 @@
     [ ] gfortran gdb valgrind
     [ ] libreoffice
     [ ] p7zip
-
-        dropbox
+    [ ] dropbox (deb) > sudo apt install python-gpgme; sudo dpkg -i ***
         zotero
+        zotfile
         chrome
-        anaconda (sh)
+    [ ] anaconda (sh)
 
 
 
@@ -41,3 +41,5 @@ mount.cifs //**.**.**.**/share-tag ~/Desktop/mount-point
     8)    Under Autostart, un-tick any previous Dropbox attempts (these can be deleted later).
     9)    Add dbus-launch dropbox start
     10)    Re-boot.
+## lubuntu anaconda ~/.bashrc PATH
+...
