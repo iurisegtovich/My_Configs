@@ -18,6 +18,8 @@
         zotfile
         chrome
     [ ] anaconda (sh)
+    [ ] git gitk git-gui 
+
 
 
 
@@ -42,4 +44,5 @@ mount.cifs //**.**.**.**/share-tag ~/Desktop/mount-point
     9)    Add dbus-launch dropbox start
     10)    Re-boot.
 ## lubuntu anaconda ~/.bashrc PATH
+  close/reopen terminal
 ...
