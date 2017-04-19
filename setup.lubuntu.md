@@ -17,6 +17,7 @@
         zotero
         zotfile
         chrome
+        foxit reader (run) > "*** ^ extract here"; chmod +x ***; ./***
     [ ] anaconda (sh)
     [ ] git gitk git-gui 
 
