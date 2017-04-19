@@ -41,30 +41,25 @@ sudo apt install samba cifs-utils smbclient
 ## list
 smbclient -L //<HOST_IP_OR_NAME> -U <user>
 
-## test connect
-smbclient //<HOST_IP_OR_NAME>/<folder_name> -U <user>
-
 ## mount
-### e.g. access the virtualbox host
-sudo mount -t cifs -o username=segtovichisv //10.0.2.2/public ~/shared_folder_mount_point
-#> ~/shared_folder_mount_point may be a symbolic link to /media/actual_shared_folder_mount_point or /mnt/actual_shared_folder_mount_point
 
 ### e.g. access a real machine in the network host
-sudo mount -t cifs -o username=segtovichisv,uid=1001,gid=1001 //10.15.56.8/public ~/shared_folder_mount_point
-#> ~/shared_folder_mount_point may be a symbolic link to /media/actual_shared_folder_mount_point or /mnt/actual_shared_folder_mount_point
+> share "/etc/fstab" "mount.cifs"
 
-    share
-    share "/etc/fstab" "mount.cifs"
-    sudo gedit /etc/fstab //.../share-tag /home/user1/Desktop/mount-point cifs username=user2,domain=lab,noauto,rw,users 0 0
+    sudo gedit /etc/fstab
+      //.../share-tag /home/user1/Desktop/mount-point cifs username=user2,domain=lab,noauto,rw,users 0 0
     mount.cifs //.../share-tag ~/Desktop/mount-point
+
+### e.g. access the virtualbox host
+usual IP is //10.0.2.2
 
 #TROUBLESHOOTING
 
 cant connect => recheck /etc/samba/smb.conf (sudo service nmbd restart)
 
-no permission to write => try ,uid1001,gid1001 or variations
+no permission to write => test chown and chgrp in the host machine
 
-"the underlying file system does not support trash" => try ,uid1001,gid1001 or variations
+"the underlying file system does not support trash" => test chown and chgrp in the host machine
 
 
 
