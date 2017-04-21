@@ -47,3 +47,6 @@ mount.cifs //**.**.**.**/share-tag ~/Desktop/mount-point
 ## lubuntu anaconda ~/.bashrc PATH
   close/reopen terminal
 ...
+
+# @dell-inspiron
+sudo alsa force-reload # https://itsfoss.com/fix-sound-ubuntu-1304-quick-tip/
