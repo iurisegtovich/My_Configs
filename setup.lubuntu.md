@@ -19,17 +19,9 @@
         chrome
         foxit reader (run) > "*** ^ extract here"; chmod +x ***; ./***
     [ ] anaconda (sh)
-    [ ] git gitk git-gui 
-
-
-
-
-# share 
-## share "/etc/fstab" "mount.cifs"
-
-sudo gedit /etc/fstab
-//**.**.**.**/share-tag /home/user1/Desktop/mount-point cifs username=user2,domain=lab,noauto,rw,users 0 0
-mount.cifs //**.**.**.**/share-tag ~/Desktop/mount-point
+    [ ] git gitk git-gui
+    [ ] teamviewer (deb) > sudo dpkg -i ***; sudo apt -f install; sudo dpkg -i ***
+    [ ] sudo apt install djvulibre-desktop
 
 # config
 ## lubuntu dropbox system tray solved
