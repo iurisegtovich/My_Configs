@@ -21,7 +21,7 @@
     [ ] anaconda (sh)
     [ ] git gitk git-gui
     [ ] teamviewer (deb) > sudo dpkg -i ***; sudo apt -f install; sudo dpkg -i ***
-    [ ] sudo apt install djvulibre-desktop
+    [ ] sudo apt install djvulibre-desktop djview
 
 # config
 ## lubuntu dropbox system tray solved
