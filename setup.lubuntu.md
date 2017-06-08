@@ -14,10 +14,10 @@
     [ ] libreoffice
     [ ] p7zip
     [ ] dropbox (deb) > sudo apt install python-gpgme; sudo dpkg -i ***
-        zotero
-        zotfile
-        chrome
-        foxit reader (run) > "*** ^ extract here"; chmod +x ***; ./***
+    [ ] zotero
+    [ ] zotfile
+    [ ] chrome
+    [ ] foxit reader (run) > "*** ^ extract here"; chmod +x ***; ./***
     [ ] anaconda (sh)
     [ ] git gitk git-gui
     [ ] teamviewer (deb) > sudo dpkg -i ***; sudo apt -f install; sudo dpkg -i ***
@@ -37,7 +37,23 @@
     9)    Add dbus-launch dropbox start
     10)    Re-boot.
 ## lubuntu anaconda ~/.bashrc PATH
-  close/reopen terminal
+    1)      close/reopen terminal or "source ~/.bashrc" -- see if it works (ipython, spyder, jupyter-notebook)
+    2)      separate anaconda PATH from native python PATH:
+    2.1) open ~/.bashrc
+    2.2) comment out
+           export PATH="/home/segtovichisv/anaconda3/bin:$PATH"
+         to
+           #export PATH="/home/segtovichisv/anaconda3/bin:$PATH"
+    2.3) save and exit
+    2.4) open ~/.bash_aliases
+    2.5) include (note the correct version and username)
+           alias anaconda='export PATH="/home/segtovichisv/anaconda3/bin:$PATH"'
+    2.6) save and exit
+    2.7) close/reopen terminal or "source ~/.bashrc"
+         see if it works (ipython, spyder, jupyter-notebook should not work straightforward anymore)
+         (entering anaconda will load the anaconda PATH)
+         see again if it works (ipython, spyder, jupyter-notebook should now work in any terminal where "anaconda" was entered until that terminal is closed)
+         
 ...
 
 # @dell-inspiron
