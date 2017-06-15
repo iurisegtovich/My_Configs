@@ -14,9 +14,9 @@
     [ ] libreoffice
     [ ] p7zip
     [ ] dropbox (deb) > sudo apt install python-gpgme; sudo dpkg -i ***
-    [ ] zotero
-    [ ] zotfile
-    [ ] chrome
+    [ ] zotero (tar.bz2)
+    [ ] zotfile (xpi)
+    [ ] chrome (deb)
     [ ] foxit reader (run) > "*** ^ extract here"; chmod +x ***; ./***
     [ ] anaconda (sh)
     [ ] git gitk git-gui
