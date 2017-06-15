@@ -4,7 +4,7 @@
 # setup
 
     install:
-    [ ] build essentials
+    [ ] build-essential
     [ ] virtualbox (deb) > sudo dpkg -i ***; sudo apt -f install; sudo dpkg -i ***
     [ ] samba cifs-utils smbclient
     [ ] openjdk-8-jdk
