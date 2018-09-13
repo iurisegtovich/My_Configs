@@ -18,6 +18,12 @@ sudo gedit /etc/samba/smb.conf
        path = /home/segtovichisv/storage/ 
        valid users = segtovichisv
        read only = no
+       
+       #https://serverfault.com/questions/70570/does-samba-work-well-with-windows-when-case-sensitive-names-are-enabled
+       case sensitive = True
+       default case = lower
+       preserve case = yes
+       short preserve case = yes
 
 #>With this configuration, you will get a share named
 #>   public
