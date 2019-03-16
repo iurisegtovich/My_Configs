@@ -12,16 +12,17 @@
     [ ] gedit gedit-plugins
     [ ] gfortran gdb valgrind
     [ ] libreoffice
-    [ ] p7zip
+    [ ] p7zip-full
     [ ] dropbox (deb) > sudo apt install python-gpgme; sudo dpkg -i ***
     [ ] zotero (tar.bz2)
     [ ] zotfile (xpi)
     [ ] chrome (deb)
-    [ ] foxit reader (run) > "*** ^ extract here"; chmod +x ***; ./***
+    [ ] okular
     [ ] anaconda (sh)
     [ ] git gitk git-gui
     [ ] teamviewer (deb) > sudo dpkg -i ***; sudo apt -f install; sudo dpkg -i ***
     [ ] sudo apt install djvulibre-desktop djview
+    [ ] automake
 
 # config
 ## lubuntu dropbox system tray solved
